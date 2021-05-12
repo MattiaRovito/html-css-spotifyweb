@@ -20,6 +20,18 @@ a:hover
 }
 
 
+h5
+{
+    color: white;
+    margin: 15px 0 10px 0;
+}
+
+
+.box
+{
+    display: flex;
+}
+
 
 
 /* nav-aside */
@@ -52,12 +64,15 @@ main
 }
 
 
-
+.row-nav
+{
+    display: flex;
+    flex-direction: column;
+}
 
 .row a img
 {
     height: 25px;
-    color: black;
     margin: 5px 0;
 }
 
@@ -69,6 +84,17 @@ span
     margin-left: 5px;
 }
 
+
+.box-playlist
+{
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.box span
+{
+    font-size: 15px;
+}
 
 
 
