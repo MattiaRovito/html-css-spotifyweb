@@ -33,6 +33,11 @@ h5
 }
 
 
+.arrow
+{
+    color: white;
+}
+
 
 /* nav-aside */
 
@@ -78,18 +83,53 @@ main
 
 span
 {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     align-self: center;
     margin-left: 5px;
 }
 
 
-.box-playlist
+.box-playlist i
 {
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 5px;
 }
+
+.box-playlist
+{
+    
+}
+
+.box a i
+{
+    margin-right: 10px;
+
+}
+
+.position
+{
+    position: absolute;
+    bottom: 10%;
+    left: 1%;
+}
+
+.position a i
+{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
+.position-pic
+{
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    display: flex;
+    border-top: 1px solid white;
+}
+
 
 
 
