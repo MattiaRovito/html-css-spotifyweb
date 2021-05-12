@@ -1,3 +1,4 @@
+/* common */
 body
 {
     font-family: 'Montserrat', sans-serif;
@@ -5,11 +6,27 @@ body
 }
 
 
+a
+{
+    color: #717171;
+    text-decoration: none;
+    display: flex;
+}
+
+a:hover
+{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
 /* nav-aside */
 
-.row
+main
 {
-    height: calc(100vh - 90px);
+    height: calc(100vh - 100px)
 }
 
 .nav-aside
@@ -20,15 +37,34 @@ body
 
 .nav-aside img
 {
-    font-size: 20px;
+    margin-bottom: 17px;
 }
+
 
 .main-body
 {
     background-color: #141922;
     overflow-y: auto;
+    
 }
 
+
+
+
+.row a img
+{
+    height: 25px;
+    color: black;
+    margin: 5px 0;
+}
+
+span
+{
+    font-size: 13px;
+    font-weight: bold;
+    align-self: center;
+    margin-left: 5px;
+}
 
 
 
@@ -55,7 +91,8 @@ footer
 {
     height: 90px;
     background-color: #282828;
-    /* position: fixed;
+    position: fixed;
     bottom: 0;
-    z-index: 10; */
-}
+    width: 100%;
+    z-index: 10; 
+}  
