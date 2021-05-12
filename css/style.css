@@ -86,7 +86,7 @@ span
     font-size: 12px;
     font-weight: bold;
     align-self: center;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 
@@ -96,16 +96,23 @@ span
     margin-right: 5px;
 }
 
-.box-playlist
+.box-playlist h5
 {
-    
+    margin: 20px 60px 0px 20px;
 }
 
 .box a i
 {
     margin-right: 10px;
-
 }
+
+
+#img
+{
+    margin-top: 10px;
+}
+
+
 
 .position
 {
@@ -127,7 +134,7 @@ span
     bottom: 0%;
     left: 1%;
     display: flex;
-    border-top: 1px solid white;
+    border-top: 1px solid #717171;
 }
 
 
