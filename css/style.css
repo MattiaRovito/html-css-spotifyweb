@@ -1,4 +1,61 @@
 body
 {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+
+/* nav-aside */
+
+.row
+{
+    height: calc(100vh - 90px);
+}
+
+.nav-aside
+{
+    background-color: #000000;
+    padding: 20px 70px 20px 20px;
+}
+
+.nav-aside img
+{
+    font-size: 20px;
+}
+
+.main-body
+{
+    background-color: #141922;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer
+{
+    height: 90px;
+    background-color: #282828;
+    /* position: fixed;
+    bottom: 0;
+    z-index: 10; */
 }
