@@ -76,3 +76,27 @@
 .middle-xs{align-items: center;}
 
 .bottom-xs {align-items: flex-end;}
+
+
+
+
+
+
+/* float */
+
+.fleft
+{
+    float: left;
+}
+
+.fright
+{
+    float: right;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
