@@ -42,13 +42,30 @@ h5
 
 /* MAIN */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOWER NAV */
 .row-lower
 {
     display: flex;
-    align-content: space-between;
     flex-direction: column;
 }
 
+.username
+{
+    align-self: flex-end;
+}
 
 
 
