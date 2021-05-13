@@ -40,6 +40,12 @@ h5
 }
 
 
+span
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+
 
 
 /* ASIDE */
@@ -53,6 +59,27 @@ h5
 .logo img
 {
     height: 40px;
+}
+
+.home
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.home span
+{
+    align-self: center;
+}
+
+.home img
+{
+    height: 25px;
+}
+
+.home a:hover
+{
+    border-left: 2px solid #adff2f;
 }
 
 
