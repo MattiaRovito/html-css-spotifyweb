@@ -39,7 +39,7 @@ h5
 }
 
 
-/* NAV-ASIDE */
+/* NAV-ASIDE
 
 main
 {
@@ -94,6 +94,7 @@ span
 {
     font-size: 30px;
     margin-right: 5px;
+    
 }
 
 .box-playlist h5
@@ -150,7 +151,7 @@ span
 /* UPGRADE */
 
 
-.upgrade
+/* .upgrade
 {
     width: 100%;
     height: 90px;
@@ -176,23 +177,25 @@ span
 {
     transform: scale(1.1);
 }
+ */
 
 
 
+/* SECTION MAIN-CENTRALE */
+
+/* .menu
+{
+    justify-content: center;
+    margin-top: 110px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.menu a
+{
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 20px;
+} */
 
 
 
@@ -210,3 +213,29 @@ footer
     width: 100%;
     z-index: 10; 
 }  
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .col-xs-2 .box
+{
+    background-color: yellowgreen;
+    height: calc(100vh - 90px);
+}
+
+
+.debug .col-xs-10 .box
+{
+    background-color: royalblue;
+    height: calc(100vh - 90px);
+}
