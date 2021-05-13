@@ -3,6 +3,7 @@ body
 {
     font-family: 'Montserrat', sans-serif;
     position: relative;
+    
 }
 
 
@@ -40,209 +41,101 @@ h5
 
 
 
-/* MAIN */
 
+/* ASIDE */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* LOWER NAV */
-.row-lower
+.col-xs-2
 {
-    display: flex;
-    flex-direction: column;
-}
-
-.username
-{
-    align-self: flex-end;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* NAV-ASIDE
-
-main
-{
-    height: calc(100vh - 100px)
-}
-
-.nav-aside
-{
-    background-color: #000000;
-    padding: 20px 70px 20px 20px;
     height: calc(100vh - 90px);
-    width: 17%;
+    background-color: black;
 }
 
-.nav-aside img
-{
-    margin-bottom: 17px;
-}
-
-
-.main-body
-{
-    background-color: #141922;
-    overflow-y: auto;
-    height: calc(100vh - 90px);
-    width: calc(100% - 17%);
-}
-
-
-.row-nav
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.row a img
-{
-    height: 25px;
-    margin: 5px 0;
-}
-
-span
-{
-    font-size: 12px;
-    font-weight: bold;
-    align-self: center;
-    margin-left: 10px;
-}
-
-
-.box-playlist i
-{
-    font-size: 30px;
-    margin-right: 5px;
-    
-}
-
-.box-playlist h5
-{
-    margin: 20px 60px 0px 20px;
-}
-
-.box a i
-{
-    margin-right: 10px;
-}
-
-
-#img
-{
-    margin-top: 10px;
-}
-
-
-
-.position
-{
-    position: absolute;
-    bottom: 10%;
-    left: 1%;
-}
-
-.position a i
-{
-    font-size: 10px;
-    margin-bottom: 10px;
-}
-
-
-.position-pic
-{
-    position: absolute;
-    bottom: 0%;
-    left: 1%;
-    display: flex;
-    border-top: 1px solid #717171;
-}
-
-
-
-
-
-
-
-
-/* SECTION MAIN-BODY */
-
-
-/* UPGRADE */
-
-
-/* .upgrade
-{
-    width: 100%;
-    height: 90px;
-    background-color: rgba(0, 0, 0, 0.2);
-    position: fixed;
-}
-
-
-.button
+.logo img
 {
     height: 40px;
-    color: white;
-    border: 1px solid white;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 9px 30px;
-    position: fixed;
-    top: 1%;
-    right: 2%;
-}
-
-.button:hover
-{
-    transform: scale(1.1);
-}
- */
-
-
-
-/* SECTION MAIN-CENTRALE */
-
-/* .menu
-{
-    justify-content: center;
-    margin-top: 110px;
 }
 
 
-.menu a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION MAIN-CENTER */
+.col-xs-10
 {
-    font-weight: bold;
-    font-size: 13px;
-    margin-left: 20px;
-} */
+    height: calc(100vh - 90px);
+    background-color: #141922;
+}
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -261,59 +154,3 @@ footer
     z-index: 10; 
 }  
 
-
-
-
-
-
-
-
-
-
-
-
-/* DEBUG */
-
-.debug .col-xs-2
-{
-    background-color: yellowgreen;
-    height: calc(100vh - 90px);
-}
-
-
-.debug .col-xs-10
-{
-    background-color: royalblue;
-    height: calc(100vh - 90px);
-}
-
-
-.debug .logo
-{
-    background-color: sandybrown;
-    height: 50px;
-    width: 100%;
-}
-
-
-.debug .upper-nav
-{
-    background-color: skyblue;
-    height: 80px;
-    width: 100%;
-}
-
-
-.debug .playlist-nav
-{
-    background-color: lightcoral;
-    height: 200px;
-    width: 100%;
-}
-
-.debug .username
-{
-    background-color: lightsalmon;
-    height: 50px;
-    width: 100%;
-}
