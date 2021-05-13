@@ -39,6 +39,36 @@ h5
 }
 
 
+
+/* MAIN */
+
+.row-lower
+{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* NAV-ASIDE
 
 main
@@ -227,15 +257,46 @@ footer
 
 /* DEBUG */
 
-.debug .col-xs-2 .box
+.debug .col-xs-2
 {
     background-color: yellowgreen;
     height: calc(100vh - 90px);
 }
 
 
-.debug .col-xs-10 .box
+.debug .col-xs-10
 {
     background-color: royalblue;
     height: calc(100vh - 90px);
+}
+
+
+.debug .logo
+{
+    background-color: sandybrown;
+    height: 50px;
+    width: 100%;
+}
+
+
+.debug .upper-nav
+{
+    background-color: skyblue;
+    height: 80px;
+    width: 100%;
+}
+
+
+.debug .playlist-nav
+{
+    background-color: lightcoral;
+    height: 200px;
+    width: 100%;
+}
+
+.debug .username
+{
+    background-color: lightsalmon;
+    height: 50px;
+    width: 100%;
 }

@@ -23,6 +23,39 @@
     flex-wrap: wrap;
 }
 
+.justify-between
+{
+    justify-content: space-between;
+}
+
+.justify-around
+{
+    justify-content: space-around;
+}
+
+.justify-end
+{
+    justify-content: flex-end;
+}
+
+.align-between
+{
+    align-content: space-between;
+}
+
+.align-around
+{
+    align-content: space-around;
+}
+
+.align-end
+{
+    align-content: flex-end;
+}
+
+
+
+
 [class*="col-"] 
 {
     flex: 0 0 auto;
