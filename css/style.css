@@ -24,7 +24,6 @@ a:hover
 h5
 {
     color: white;
-    margin: 15px 0 10px 0;
 }
 
 
@@ -77,13 +76,21 @@ span
     height: 25px;
 }
 
-.home a:hover
+.home a:hover:not(.not)
 {
     border-left: 2px solid #adff2f;
 }
 
+.mbottom10 i
+{
+    font-size: 30px;
+    margin-right: 5px;
+}
 
-
+.playlist-text
+{
+    font-size: 14px;
+}
 
 
 
