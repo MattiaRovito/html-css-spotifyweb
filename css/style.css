@@ -68,7 +68,7 @@ span
 
 .home
 {
-    height: 500px;
+    height: 250px;
 }
 
 .home span
@@ -229,6 +229,8 @@ footer
     display: flex;
 }
 
+
+
 .music img
 {
     height: 50px;
@@ -243,7 +245,7 @@ footer
 
 .row-text h5
 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .row-icon
@@ -254,17 +256,14 @@ footer
 
 .row-icon a i
 {
-    font-size: 25px;
-    margin: 0px 10px;
+    font-size: 15px;
+    margin: 0px 5px;
 }
 
-
-.time
+/* .time
 {
-    justify-content: center;
-    align-items: center;
-}
-
+    flex-grow: 2;
+} */
 .time a
 {
     margin: 0 10px;
@@ -274,12 +273,13 @@ footer
 
 #arrowsx
 {
-    border-left: 3px solid white;
+    border-left: 2px solid white;
 }
+
 
 #arrowdx
 {
-    border-right: 3px solid white;
+    border-right: 2px solid white;
 }
 
 .time a:hover
@@ -288,11 +288,73 @@ footer
 }
 
 
+.row-time
+{
+    position: relative;
+}
+
+.row-time a:first-child span
+{
+    position: absolute;
+    top: 50%;
+    right: 285px;
+    font-size: 10px;
+}
+
+.row-time a:last-child span
+{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    font-size: 10px;
+}
 
 
+#barra
+{
+    width: 350px;
+    height: 4px;
+    background-color: #5a5a5a;
+    position: absolute;
+    top: 54%;
+    left: -260px;
+    border-radius: 10px;
+}
 
 
+#scorrimento
+{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 54%;
+    left: -260px;
+    border-radius: 10px;
+}
 
+#cursore
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 49%;
+    left: -170px;
+    display: none;
+}
+
+.blocco-barra:hover #cursore
+{
+    display: inline;
+}
+
+.blocco-barra:hover #scorrimento
+{
+    background-color: lime;
+}
 
 
 /* DEBUG */
