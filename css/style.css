@@ -224,7 +224,7 @@ footer
 }
 
 
-.music
+.music, .time, .volume
 {
     display: flex;
 }
@@ -259,16 +259,43 @@ footer
 }
 
 
-/* DEBUG */
-
-
-
-.debug .time
+.time
 {
-    background-color: blue;
-    height: 90px;
-    width: 500px;
+    justify-content: center;
+    align-items: center;
 }
+
+.time a
+{
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#arrowsx
+{
+    border-left: 3px solid white;
+}
+
+#arrowdx
+{
+    border-right: 3px solid white;
+}
+
+.time a:hover
+{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+/* DEBUG */
 
 
 
