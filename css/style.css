@@ -21,7 +21,7 @@ a:hover
 }
 
 
-h5
+h5, h4
 {
     color: white;
 }
@@ -48,6 +48,7 @@ span
 
 
 /* ASIDE */
+
 
 .col-xs-2
 {
@@ -98,6 +99,8 @@ span
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .nav-bottom a i
@@ -106,6 +109,18 @@ span
 }
 
 
+.row-profile
+{
+    border-top: 1px solid white;
+}
+
+
+#profile
+{
+    height: 25px;
+    background-color: #808080;
+    border-radius: 50%;
+}
 
 
 
@@ -121,7 +136,7 @@ span
 .col-xs-10
 {
     height: calc(100vh - 90px);
-    background-color: #141922;
+    background-color: #141922;    
 }
 
 
