@@ -94,6 +94,19 @@ span
     font-size: 14px;
 }
 
+.menu-playlist
+{
+    overflow-y: hidden;
+    height: 80%;
+}
+
+.list-overflow
+{
+    overflow-y: auto;
+    height: 80%;
+}
+
+
 .nav-bottom
 {
     height: 60px;
@@ -200,8 +213,6 @@ footer
     z-index: 10; 
 }  
 
-
-
 .fot-flex
 {
     display: flex;
@@ -209,8 +220,20 @@ footer
 }
 
 
+.music
+{
+    display: flex;
+}
 
+.music img
+{
+    height: 50px;
+}
 
+.row-text
+{
+    justify-content: center;
+}
 
 
 
