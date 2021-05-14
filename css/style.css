@@ -50,11 +50,24 @@ span
 /* ASIDE */
 
 
-.col-xs-2
+.col-aside
 {
+    min-width: 50px;
+    max-width: 50px;
     height: calc(100vh - 90px);
     background-color: black;
 }
+
+
+@media screen and (min-width:576px)
+{
+    .col-aside
+    {
+        min-width: 230px;
+    }
+}
+
+
 
 .upper-nav
 {
@@ -146,19 +159,35 @@ span
 
 
 /* SECTION MAIN-CENTER */
-.col-xs-10
+.col-xs
 {
-    height: calc(100vh - 90px);
     background-color: #141922;    
 }
 
 
+.upgrade
+{
+    position: fixed;
+    width: calc(100% - 230px);
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
+.upgrade a.btn
+{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    line-height: 90px;
+    margin-right: 20px;
+}
 
-
-
-
-
+.btn h5
+{
+    text-transform: uppercase;
+}
 
 
 
