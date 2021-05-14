@@ -59,14 +59,12 @@ span
 .upper-nav
 {
     min-height: calc(100% - 60px);
-    overflow-y: hidden;
 }
 
 .logo img
 {
     height: 40px;
 }
-
 
 
 .home span
@@ -145,14 +143,6 @@ span
 
 
 
-/* DEBUG */
-
-
-
-
-
-
-
 
 
 
@@ -209,4 +199,48 @@ footer
     width: 100%;
     z-index: 10; 
 }  
+
+
+
+.fot-flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+
+.debug .music
+{
+    background-color: red;
+    height: 90px;
+    width: 180px;
+}
+
+
+.debug .time
+{
+    background-color: blue;
+    height: 90px;
+    width: 500px;
+}
+
+
+
+
+.debug .volume
+{
+    background-color: red;
+    height: 90px;
+    width: 180px;
+}
 
