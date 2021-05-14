@@ -56,16 +56,18 @@ span
     background-color: black;
 }
 
+.upper-nav
+{
+    min-height: calc(100% - 60px);
+    overflow-y: hidden;
+}
+
 .logo img
 {
     height: 40px;
 }
 
-.home
-{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .home span
 {
@@ -94,13 +96,9 @@ span
     font-size: 14px;
 }
 
-
 .nav-bottom
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+    height: 60px;
 }
 
 .nav-bottom a i
