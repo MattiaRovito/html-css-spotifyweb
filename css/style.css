@@ -45,7 +45,10 @@ span
     font-weight: bold;
 }
 
-
+ul li
+{
+    list-style: none;
+}
 
 /* ASIDE */
 
@@ -186,6 +189,9 @@ span
     position: fixed;
     top: 1%;
     right: 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .btn:hover
@@ -193,14 +199,24 @@ span
     transform: scale(1.1);
 }
 
+.generi
+{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
 
+.generi ul li
+{
+    margin: 0 10px;
+}
 
-
-
-
-
-
-
+.generi ul li a
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
 
 
 
