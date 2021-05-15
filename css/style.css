@@ -21,7 +21,7 @@ a:hover
 }
 
 
-h5, h4
+h2, h5, h4
 {
     color: white;
 }
@@ -162,6 +162,7 @@ ul li
 
 
 /* SECTION MAIN-CENTER */
+
 .col-xs
 {
     height: calc(100vh - 90px);
@@ -169,6 +170,8 @@ ul li
     overflow-y: auto;
 }
 
+
+/* SECTION UPGRADE */
 
 .upgrade
 {
@@ -199,6 +202,9 @@ ul li
     transform: scale(1.1);
 }
 
+
+/* SECTION GENERI */
+
 .generi
 {
     margin-top: 110px;
@@ -218,18 +224,37 @@ ul li
     font-size: 12px;
 }
 
+.generi ul li hr
+{
+    border: 1px solid #adff2f;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3px;
+    display: none;
+}
+
+.generi ul li:hover hr
+{
+    display: block;
+}
 
 
+/* SECTION PLAYED */
 
 
+.played .col-xs-2 img
+{
+    width: 160px;
+    height: auto;
+    margin: 0 10px;
+}
 
 
-
-
-
-
-
-
+.cover
+{
+    display: flex;
+}
 
 
 
