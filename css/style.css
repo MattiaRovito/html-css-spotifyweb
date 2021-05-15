@@ -245,19 +245,25 @@ ul li
 /* SECTION PLAYED */
 
 
-.played .col-xs-2 img
+.cover img
 {
-    width: 160px;
-    height: auto;
+    width: 100%;
     margin: 0 10px;
 }
 
 
 .cover
 {
-    display: flex;
+    width: 100%;
 }
 
+.cover-text p
+{
+    color: #717171;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
 
 
 
