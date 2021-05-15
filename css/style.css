@@ -314,6 +314,10 @@ ul li
 
 /* SECTION ARTISTI POPOLARI */
 
+.popolari
+{
+    border-radius: 50%;
+}
 
 
 /* FOOTER */
