@@ -165,11 +165,16 @@ ul li
 
 .col-xs
 {
-    height: calc(100vh - 90px);
     background-color: #141922;
-    overflow-y: auto;
 }
 
+#overflow-mcenter
+
+{
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 /* SECTION UPGRADE */
 
@@ -255,6 +260,12 @@ ul li
 .cover
 {
     width: 100%;
+    padding: 10px;
+}
+
+.cover-text
+{
+    text-align: center;
 }
 
 .cover-text p
