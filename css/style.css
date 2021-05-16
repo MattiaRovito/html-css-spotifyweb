@@ -106,11 +106,22 @@ ul li
     height: 25px;
 }
 
+.green-block:first-child span
+{
+    color: white;
+}
 
-.home a:hover:not(.not)
+.green-block:first-child
 {
     border-left: 2px solid #adff2f;
 }
+
+
+.green-block:hover
+{
+    border-left: 2px solid #adff2f;
+}
+
 
 .mbottom10 i
 {
@@ -239,6 +250,11 @@ ul li
     font-size: 12px;
 }
 
+.generi ul li:first-child a
+{
+    color: white;
+}
+
 .generi ul li:first-child hr
 {
     border: 1px solid #adff2f;
@@ -257,9 +273,6 @@ ul li
     margin-top: 3px;
     display: none;
 }
-
-
-
 
 .generi ul li:hover hr
 {
