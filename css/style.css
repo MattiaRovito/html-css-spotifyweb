@@ -239,7 +239,16 @@ ul li
     font-size: 12px;
 }
 
-.generi ul li hr
+.generi ul li:first-child hr
+{
+    border: 1px solid #adff2f;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3px;
+}
+
+.generi ul li:not(:first-child) hr
 {
     border: 1px solid #adff2f;
     border-radius: 10px;
@@ -248,6 +257,7 @@ ul li
     margin-top: 3px;
     display: none;
 }
+
 
 
 
