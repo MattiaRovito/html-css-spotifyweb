@@ -308,10 +308,10 @@ ul li
 .cover-hover
 {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 10px;
+    left: 20px;
+    width: 143px;
+    height: 143px;
     justify-content: center;
     align-items: center;
     display: none;
@@ -340,6 +340,28 @@ ul li
 .popolari
 {
     border-radius: 50%;
+}
+
+.cover-hover-circle
+{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 143px;
+    height: 143px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+
+.cover:hover .cover-hover-circle
+{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);  
 }
 
 
@@ -552,15 +574,6 @@ footer
 }
 
 
-
-
-
-
-
-
-
-
-/* DEBUG */
 
 
 
