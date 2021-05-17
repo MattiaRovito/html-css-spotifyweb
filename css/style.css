@@ -234,9 +234,11 @@ ul li
     justify-content: center;
 }
 
+
+
 .generi ul li
 {
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 
 .generi ul li a
@@ -298,7 +300,6 @@ ul li
 {
     text-align: center;
 }
-
 
 
 .cover-hover
@@ -563,6 +564,13 @@ footer
     {
         display: none;
     }
+}
 
+@media screen and (min-width:992px)
+{
+    .generi ul li
+    {
+        margin: 0px 10px;
+    }
 }
 
