@@ -377,7 +377,24 @@ footer
     z-index: 10; 
 }  
 
-.fot-flex
+.music-cover
+{
+    width: 10%;
+}
+
+.music-cover img
+{
+    width: 100%;
+}
+
+.music-icon a
+{
+    margin: 0 5px;
+}
+
+
+
+/* .fot-flex
 {
     display: flex;
     justify-content: space-between;
@@ -574,7 +591,7 @@ footer
 }
 
 
-
+ */
 
 
 
