@@ -524,6 +524,14 @@ footer
 }
 
 
+/* DISPLAY-NONE */
+
+.music-icon a, .volume a, .bar-small
+{
+    display: none;
+}
+
+
 
 
 
@@ -564,6 +572,11 @@ footer
     {
         display: none;
     }
+    .music-icon a, .volume a, .bar-small
+    {
+        display: inline;
+    }
+
 }
 
 @media screen and (min-width:992px)
