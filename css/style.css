@@ -369,7 +369,6 @@ ul li
 
 footer
 {
-    height: 90px;
     background-color: #282828;
     position: fixed;
     bottom: 0;
@@ -391,6 +390,90 @@ footer
 {
     margin: 0 5px;
 }
+
+.time
+{
+    height: 90px;
+}
+
+.time-top
+{
+    padding: 1% 0;
+}
+
+.time-top a
+{
+    color: white;
+    margin: 0 10px;
+    align-self: center;
+    font-size: 14px;
+}
+
+.time-top a:nth-child(3)
+{
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.time-top a:hover
+{
+    transform: scale(1.1);
+}
+
+.time-bottom
+{
+    align-items: center;
+}
+
+.minute span
+{
+    color:white;
+    font-size: 10px;
+}
+
+.bar
+{
+    width: 80%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #5a5a5a;
+    cursor: pointer;
+    position: relative;
+}
+
+#sliding-bar
+{
+    width: 11%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+#cursor
+{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -4px;
+    left: 30px;
+    display: none;
+}
+
+.bar:hover #cursor
+{
+    display: inline;
+}
+
+.bar:hover #sliding-bar
+{
+    background-color: lime;
+}
+
 
 
 

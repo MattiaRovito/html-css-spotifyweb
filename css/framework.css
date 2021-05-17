@@ -23,6 +23,21 @@
     flex-wrap: wrap;
 }
 
+.row-column
+{
+    flex-direction: column;
+}
+
+.row-column-reverse
+{
+    flex-direction: column-reverse;
+}
+
+.row-reverse
+{
+    flex-direction: row-reverse;
+}
+
 .justify-between
 {
     justify-content: space-between;
