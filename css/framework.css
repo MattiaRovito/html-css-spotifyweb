@@ -1,3 +1,29 @@
+/* NOTE PERSONALI
+
+1. Il framework-responsive.css deve sempre essere inserito dopo il    framework.css;
+
+2. Ricordarsi che il più piccolo VINCE SEMPRE sul più grande. Di conseguenza bisogna sempre scrivere dal più grande al più piccolo. Es. <div class"col-lg-3 col-md-2 col-xs-6">;
+
+3. Si lavora sempre partendo dalla versione mobile. Eventuali modifiche devono essere apportate con la @media screen {};
+
+4. i breakpoints da considerare nella versione responsive sono: 
+(
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+quindi tutto ciò che viene fatto nella versione mobile, è sempre visibile dai 575px in giù.
+
+*/
+
+
+
+
+
+
 *
 {
     margin: 0;
